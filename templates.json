@@ -336,6 +336,26 @@
 					"default": "100",
 					"label": "PGID",
 					"name": "PGID"
+				},
+				{
+					"default": "VIRTUAL_PORT",
+					"label": "VIRTUAL_PORT",
+					"name": "443"
+				},
+				{
+					"default": "VIRTUAL_HOST",
+					"label": "VIRTUAL_HOST",
+					"name": "test.ryandew.net"
+				},
+				{
+					"default": "LETSENCRYPT_HOST",
+					"label": "LETSENCRYPT_HOST",
+					"name": "test.ryandew.net"
+				},
+				{
+					"default": "LETSENCRYPT_EMAIL",
+					"label": "LETSENCRYPT_EMAIL",
+					"name": "ryandew1997@gmail.com"
 				}
 			],
 			"image": "linuxserver/heimdall:latest",
