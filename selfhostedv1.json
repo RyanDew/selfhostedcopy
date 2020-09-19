@@ -1529,6 +1529,12 @@
     "ports": [
       "3010:3000/tcp"
     ],
+    "env":  [
+      {
+        "name": "VIRTUAL_HOST",
+        "label": "test.ryandew.net"
+      }  
+    ],
     "volumes": [
       {
         "container": "/app/db/database",
