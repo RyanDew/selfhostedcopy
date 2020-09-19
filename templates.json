@@ -362,10 +362,6 @@
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/heimdall-icon.png",
 			"name": "heimdall",
 			"platform": "linux",
-			"ports": [
-				"80/tcp",
-				"443/tcp"
-			],
 			"restart_policy": "unless-stopped",
 			"title": "Heimdall",
 			"type": 1,
