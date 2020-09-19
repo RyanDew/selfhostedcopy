@@ -1532,10 +1532,10 @@
     "env": [
       {
         "VIRTUAL_HOST":  "test.ryandew.net",
-      }
+      },
       {
         "LETSENCRYPT_HOST": "test.ryandew.net",
-      }
+      },
       {
         "LETSENCRYPT_EMAIL": "ryandew1997@gmail.com"
       }
