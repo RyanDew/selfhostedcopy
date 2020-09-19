@@ -1529,12 +1529,12 @@
     "env":  [
       {
         "name": "VIRTUAL_HOST",
-        "label": "test.ryandew.net",
+        "label": "VIRTUAL_HOST",
         "default": "test.ryandew.net"
       },
       {
         "name": "VIRTUAL_PORT",
-        "label": "3000",
+        "label": "VIRTUAL_PORT",
         "default": "3000"
       }
     ],
