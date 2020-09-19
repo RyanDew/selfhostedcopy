@@ -1526,14 +1526,17 @@
     ],
     "platform": "linux",
     "restart_policy": "unless-stopped",
-    "ports": [
-      "3010:3000/tcp"
-    ],
     "env":  [
       {
         "name": "VIRTUAL_HOST",
-        "label": "test.ryandew.net"
-      }  
+        "label": "test.ryandew.net",
+        "default": "test.ryandew.net"
+      },
+      {
+        "name": "VIRTUAL_PORT",
+        "label": "3000",
+        "default": "3000"
+      }
     ],
     "volumes": [
       {
