@@ -18,7 +18,7 @@
       {
         "container": "/music",
         "bind": "/portainer/Music"
-      },
+      },F
       {
         "container": "/playlists",
         "bind": "/portainer/Files/AppData/Airsonic/Playlists"
@@ -1530,9 +1530,15 @@
       "3010:3000/tcp"
     ],
     "env": [
-      "VIRTUAL_HOST":  "test.ryandew.net",
-      "LETSENCRYPT_HOST": "test.ryandew.net",
-      "LETSENCRYPT_EMAIL": "ryandew1997@gmail.com"
+      {
+        "VIRTUAL_HOST":  "test.ryandew.net",
+      }
+      {
+        "LETSENCRYPT_HOST": "test.ryandew.net",
+      }
+      {
+        "LETSENCRYPT_EMAIL": "ryandew1997@gmail.com"
+      }
     ],
     "volumes": [
       {
