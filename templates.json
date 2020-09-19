@@ -338,11 +338,6 @@
 					"name": "PGID"
 				},
 				{
-					"default": "443",
-					"label": "VIRTUAL_PORT",
-					"name": "VIRTUAL_PORT"
-				},
-				{
 					"default": "test.ryandew.net",
 					"label": "VIRTUAL_HOST",
 					"name": "VIRTUAL_HOST"
@@ -362,6 +357,10 @@
 			"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/heimdall-icon.png",
 			"name": "heimdall",
 			"platform": "linux",
+			"ports": [
+				"80/tcp",
+				"443/tcp"
+			],
 			"restart_policy": "unless-stopped",
 			"title": "Heimdall",
 			"type": 1,
