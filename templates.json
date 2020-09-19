@@ -338,24 +338,24 @@
 					"name": "PGID"
 				},
 				{
-					"default": "VIRTUAL_PORT",
+					"default": "443",
 					"label": "VIRTUAL_PORT",
-					"name": "443"
+					"name": "VIRTUAL_PORT"
 				},
 				{
-					"default": "VIRTUAL_HOST",
+					"default": "test.ryandew.net",
 					"label": "VIRTUAL_HOST",
-					"name": "test.ryandew.net"
+					"name": "VIRTUAL_HOST"
 				},
 				{
-					"default": "LETSENCRYPT_HOST",
+					"default": "test.ryandew.net",
 					"label": "LETSENCRYPT_HOST",
-					"name": "test.ryandew.net"
+					"name": "LETSENCRYPT_HOST"
 				},
 				{
-					"default": "LETSENCRYPT_EMAIL",
+					"default": "ryandew1997@gmail.com",
 					"label": "LETSENCRYPT_EMAIL",
-					"name": "ryandew1997@gmail.com"
+					"name": "LETSENCRYPT_EMAIL"
 				}
 			],
 			"image": "linuxserver/heimdall:latest",
